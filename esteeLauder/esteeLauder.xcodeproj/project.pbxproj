@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D508876A2A77638400FF8361 /* twoInOneCleanser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50887692A77638400FF8361 /* twoInOneCleanser.swift */; };
+		D52F29902A7DC25E0013DCB6 /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F298F2A7DC25E0013DCB6 /* info.swift */; };
+		D59A03592A63199700B5A4CE /* esteeLauderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59A03582A63199700B5A4CE /* esteeLauderApp.swift */; };
+		D59A035B2A63199700B5A4CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59A035A2A63199700B5A4CE /* ContentView.swift */; };
+		D59A035D2A63199900B5A4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59A035C2A63199900B5A4CE /* Assets.xcassets */; };
+		D59A03602A63199900B5A4CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59A035F2A63199900B5A4CE /* Preview Assets.xcassets */; };
+		D5B28A4B2A63B09C0016191C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B28A4A2A63B09C0016191C /* HomeView.swift */; };
+		D5B331692A6CA84B004BA1AE /* OptimaDisplay-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B331612A6CA84B004BA1AE /* OptimaDisplay-UltraLight.ttf */; };
+		D5B3316A2A6CA84B004BA1AE /* AkzidenzGroteskBQ-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B331622A6CA84B004BA1AE /* AkzidenzGroteskBQ-Reg.ttf */; };
+		D5B3316B2A6CA84B004BA1AE /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B331632A6CA84B004BA1AE /* OptimaDisplay-Roman.ttf */; };
+		D5B3316C2A6CA84B004BA1AE /* OptimaEL-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B331642A6CA84B004BA1AE /* OptimaEL-Roman.ttf */; };
+		D5B3316D2A6CA84B004BA1AE /* AkzidenzGroteskBQ-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B331652A6CA84B004BA1AE /* AkzidenzGroteskBQ-Bold.ttf */; };
+		D5B3316E2A6CA84B004BA1AE /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B331662A6CA84B004BA1AE /* OptimaDisplay-Book.ttf */; };
+		D5B3316F2A6CA84B004BA1AE /* OptimaEL-Text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B331672A6CA84B004BA1AE /* OptimaEL-Text.ttf */; };
+		D5B331702A6CA84B004BA1AE /* OptimaDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B331682A6CA84B004BA1AE /* OptimaDisplay-Light.ttf */; };
+		D5B331722A6CB224004BA1AE /* skInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B331712A6CB224004BA1AE /* skInfo.swift */; };
+		D5C93FFE2A79D36600BFC77E /* radientEssence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C93FFD2A79D36600BFC77E /* radientEssence.swift */; };
+		D5C940002A79D36C00BFC77E /* airyLotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C93FFF2A79D36C00BFC77E /* airyLotion.swift */; };
+		D5C940022A7C368D00BFC77E /* meltingSoftCreme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C940012A7C368D00BFC77E /* meltingSoftCreme.swift */; };
+		D5C940062A7C560F00BFC77E /* estee38.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5C940052A7C560E00BFC77E /* estee38.gif */; };
+		D5FC41B12A7D98AA00A4C507 /* userPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC41B02A7D98AA00A4C507 /* userPage.swift */; };
+		D5FC41B92A7DA57000A4C507 /* estee40.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5FC41B82A7DA57000A4C507 /* estee40.gif */; };
+		D5FC41BB2A7DA5B600A4C507 /* estee39.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5FC41BA2A7DA5B600A4C507 /* estee39.gif */; };
+		D5FC41BD2A7DA5BC00A4C507 /* estee41.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5FC41BC2A7DA5BC00A4C507 /* estee41.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D50887692A77638400FF8361 /* twoInOneCleanser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoInOneCleanser.swift; sourceTree = "<group>"; };
+		D52F298F2A7DC25E0013DCB6 /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
+		D59A03552A63199700B5A4CE /* esteeLauder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esteeLauder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59A03582A63199700B5A4CE /* esteeLauderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderApp.swift; sourceTree = "<group>"; };
+		D59A035A2A63199700B5A4CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D59A035C2A63199900B5A4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59A035F2A63199900B5A4CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5B28A4A2A63B09C0016191C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D5B331602A6CA5F0004BA1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D5B331612A6CA84B004BA1AE /* OptimaDisplay-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-UltraLight.ttf"; sourceTree = "<group>"; };
+		D5B331622A6CA84B004BA1AE /* AkzidenzGroteskBQ-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Reg.ttf"; sourceTree = "<group>"; };
+		D5B331632A6CA84B004BA1AE /* OptimaDisplay-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Roman.ttf"; sourceTree = "<group>"; };
+		D5B331642A6CA84B004BA1AE /* OptimaEL-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Roman.ttf"; sourceTree = "<group>"; };
+		D5B331652A6CA84B004BA1AE /* AkzidenzGroteskBQ-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Bold.ttf"; sourceTree = "<group>"; };
+		D5B331662A6CA84B004BA1AE /* OptimaDisplay-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Book.ttf"; sourceTree = "<group>"; };
+		D5B331672A6CA84B004BA1AE /* OptimaEL-Text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Text.ttf"; sourceTree = "<group>"; };
+		D5B331682A6CA84B004BA1AE /* OptimaDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Light.ttf"; sourceTree = "<group>"; };
+		D5B331712A6CB224004BA1AE /* skInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skInfo.swift; sourceTree = "<group>"; };
+		D5C93FFD2A79D36600BFC77E /* radientEssence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radientEssence.swift; sourceTree = "<group>"; };
+		D5C93FFF2A79D36C00BFC77E /* airyLotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airyLotion.swift; sourceTree = "<group>"; };
+		D5C940012A7C368D00BFC77E /* meltingSoftCreme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltingSoftCreme.swift; sourceTree = "<group>"; };
+		D5C940052A7C560E00BFC77E /* estee38.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = estee38.gif; sourceTree = "<group>"; };
+		D5FC41B02A7D98AA00A4C507 /* userPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userPage.swift; sourceTree = "<group>"; };
+		D5FC41B82A7DA57000A4C507 /* estee40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = estee40.gif; sourceTree = "<group>"; };
+		D5FC41BA2A7DA5B600A4C507 /* estee39.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = estee39.gif; sourceTree = "<group>"; };
+		D5FC41BC2A7DA5BC00A4C507 /* estee41.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = estee41.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59A03522A63199700B5A4CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59A034C2A63199700B5A4CE = {
+			isa = PBXGroup;
+			children = (
+				D59A03572A63199700B5A4CE /* esteeLauder */,
+				D59A03562A63199700B5A4CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59A03562A63199700B5A4CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59A03552A63199700B5A4CE /* esteeLauder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59A03572A63199700B5A4CE /* esteeLauder */ = {
+			isa = PBXGroup;
+			children = (
+				D5B331602A6CA5F0004BA1AE /* Info.plist */,
+				D59A03582A63199700B5A4CE /* esteeLauderApp.swift */,
+				D59A035A2A63199700B5A4CE /* ContentView.swift */,
+				D5B28A4A2A63B09C0016191C /* HomeView.swift */,
+				D5B331712A6CB224004BA1AE /* skInfo.swift */,
+				D52F298F2A7DC25E0013DCB6 /* info.swift */,
+				D50887692A77638400FF8361 /* twoInOneCleanser.swift */,
+				D5C93FFD2A79D36600BFC77E /* radientEssence.swift */,
+				D5C93FFF2A79D36C00BFC77E /* airyLotion.swift */,
+				D5C940012A7C368D00BFC77E /* meltingSoftCreme.swift */,
+				D5FC41B02A7D98AA00A4C507 /* userPage.swift */,
+				D5B331652A6CA84B004BA1AE /* AkzidenzGroteskBQ-Bold.ttf */,
+				D5B331622A6CA84B004BA1AE /* AkzidenzGroteskBQ-Reg.ttf */,
+				D5B331662A6CA84B004BA1AE /* OptimaDisplay-Book.ttf */,
+				D5B331682A6CA84B004BA1AE /* OptimaDisplay-Light.ttf */,
+				D5B331632A6CA84B004BA1AE /* OptimaDisplay-Roman.ttf */,
+				D5B331612A6CA84B004BA1AE /* OptimaDisplay-UltraLight.ttf */,
+				D5B331642A6CA84B004BA1AE /* OptimaEL-Roman.ttf */,
+				D5B331672A6CA84B004BA1AE /* OptimaEL-Text.ttf */,
+				D5C940052A7C560E00BFC77E /* estee38.gif */,
+				D5FC41BA2A7DA5B600A4C507 /* estee39.gif */,
+				D5FC41B82A7DA57000A4C507 /* estee40.gif */,
+				D5FC41BC2A7DA5BC00A4C507 /* estee41.gif */,
+				D59A035C2A63199900B5A4CE /* Assets.xcassets */,
+				D59A035E2A63199900B5A4CE /* Preview Content */,
+			);
+			path = esteeLauder;
+			sourceTree = "<group>";
+		};
+		D59A035E2A63199900B5A4CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D59A035F2A63199900B5A4CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59A03542A63199700B5A4CE /* esteeLauder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59A03632A63199900B5A4CE /* Build configuration list for PBXNativeTarget "esteeLauder" */;
+			buildPhases = (
+				D59A03512A63199700B5A4CE /* Sources */,
+				D59A03522A63199700B5A4CE /* Frameworks */,
+				D59A03532A63199700B5A4CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = esteeLauder;
+			productName = esteeLauder;
+			productReference = D59A03552A63199700B5A4CE /* esteeLauder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59A034D2A63199700B5A4CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D59A03542A63199700B5A4CE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D59A03502A63199700B5A4CE /* Build configuration list for PBXProject "esteeLauder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59A034C2A63199700B5A4CE;
+			productRefGroup = D59A03562A63199700B5A4CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59A03542A63199700B5A4CE /* esteeLauder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59A03532A63199700B5A4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B3316E2A6CA84B004BA1AE /* OptimaDisplay-Book.ttf in Resources */,
+				D5B3316F2A6CA84B004BA1AE /* OptimaEL-Text.ttf in Resources */,
+				D5FC41BD2A7DA5BC00A4C507 /* estee41.gif in Resources */,
+				D5B3316A2A6CA84B004BA1AE /* AkzidenzGroteskBQ-Reg.ttf in Resources */,
+				D5B331692A6CA84B004BA1AE /* OptimaDisplay-UltraLight.ttf in Resources */,
+				D5C940062A7C560F00BFC77E /* estee38.gif in Resources */,
+				D5B331702A6CA84B004BA1AE /* OptimaDisplay-Light.ttf in Resources */,
+				D59A03602A63199900B5A4CE /* Preview Assets.xcassets in Resources */,
+				D5FC41BB2A7DA5B600A4C507 /* estee39.gif in Resources */,
+				D59A035D2A63199900B5A4CE /* Assets.xcassets in Resources */,
+				D5B3316B2A6CA84B004BA1AE /* OptimaDisplay-Roman.ttf in Resources */,
+				D5B3316D2A6CA84B004BA1AE /* AkzidenzGroteskBQ-Bold.ttf in Resources */,
+				D5B3316C2A6CA84B004BA1AE /* OptimaEL-Roman.ttf in Resources */,
+				D5FC41B92A7DA57000A4C507 /* estee40.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59A03512A63199700B5A4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FC41B12A7D98AA00A4C507 /* userPage.swift in Sources */,
+				D5B28A4B2A63B09C0016191C /* HomeView.swift in Sources */,
+				D5C940022A7C368D00BFC77E /* meltingSoftCreme.swift in Sources */,
+				D508876A2A77638400FF8361 /* twoInOneCleanser.swift in Sources */,
+				D5C940002A79D36C00BFC77E /* airyLotion.swift in Sources */,
+				D52F29902A7DC25E0013DCB6 /* info.swift in Sources */,
+				D5C93FFE2A79D36600BFC77E /* radientEssence.swift in Sources */,
+				D5B331722A6CB224004BA1AE /* skInfo.swift in Sources */,
+				D59A035B2A63199700B5A4CE /* ContentView.swift in Sources */,
+				D59A03592A63199700B5A4CE /* esteeLauderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D59A03612A63199900B5A4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D59A03622A63199900B5A4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59A03642A63199900B5A4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"esteeLauder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esteeLauder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalieMcKenzie.esteeLauder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D59A03652A63199900B5A4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"esteeLauder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esteeLauder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalieMcKenzie.esteeLauder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59A03502A63199700B5A4CE /* Build configuration list for PBXProject "esteeLauder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59A03612A63199900B5A4CE /* Debug */,
+				D59A03622A63199900B5A4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59A03632A63199900B5A4CE /* Build configuration list for PBXNativeTarget "esteeLauder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59A03642A63199900B5A4CE /* Debug */,
+				D59A03652A63199900B5A4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59A034D2A63199700B5A4CE /* Project object */;
+}
